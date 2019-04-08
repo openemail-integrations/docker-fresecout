@@ -11,6 +11,7 @@ RUN set -x && \
         \
 	apk add \
         expect \
+	gnu-libiconv \
         nginx \
         mariadb-client \
         openssl \
